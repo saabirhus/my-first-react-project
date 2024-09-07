@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav>
       <ul>
-        <li><Link to="/">Portfolio</Link></li>
+        <li><Link to="/">Profile</Link></li>
         <li><Link to="/projects">Projects</Link></li>
         <li><Link to="/hobbies">Hobbies</Link></li>
         <li><Link to="/cv">CV</Link></li>
