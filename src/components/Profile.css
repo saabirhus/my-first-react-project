@@ -1,0 +1,15 @@
+.profile-page {
+    background-color: #e3f2fd; /* Light Blue */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-page h1 {
+    color: #333;
+}
+
+.profile-page p {
+    color: #666;
+}
