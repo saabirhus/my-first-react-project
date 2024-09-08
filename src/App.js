@@ -5,7 +5,7 @@ import Profile from './components/Profile';
 import Projects from './components/Projects';
 import Hobbies from './components/Hobbies';
 // import CV from './components/CV';
-// import Contact from './components/Contact';
+import Contact from './components/ContactUs';
 // import Blog from './components/Blog';
 import './App.css';
 
@@ -17,9 +17,9 @@ function App (){
           <Route path="/" element={<Profile />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/hobbies" element={<Hobbies />} />
-          {/* <Route path="/cv" element={<CV />} />
+          {/* <Route path="/cv" element={<CV />} /> */}
           <Route path="/contact" element={<Contact />} />
-          <Route path="/blog" element={<Blog />} />  */}
+          {/* <Route path="/blog" element={<Blog />} />  */}
         </Routes>
       </div>
   );
